@@ -3,10 +3,15 @@
 }*/
 .org{
     padding-bottom: 15px;
+    background: #ffffff;
+    padding-top: 15px;
+    padding: 30px;
+    
 }
 .org h1{
     color: #FA4616;
-    font-size: 500%;
+    font-size: 400%;
+    margin: -1%;
 }
 
 nav a{
@@ -17,7 +22,7 @@ nav a{
     color: #ffffff;
     text-decoration: none;
     font-family: sans-serif;
-    width: 100vw;
+    width: 15vw;
 
     /*background: rgba(255, 255, 255, 0.7);*/
 }
@@ -105,7 +110,7 @@ div a{
     display:inline-block;
 
     position: relative;
-    top:5px
+    top:5px;
 }
 
 iframe{
@@ -115,7 +120,8 @@ iframe{
 }
 #membersTable{
     font-size:5x;
-    margin:auto;
+    margin:0px auto;
+    margin-top: 20px;
 
 }
 td{
@@ -125,3 +131,67 @@ td{
 }
 
 
+@media screen and (max-width:700px)
+{
+    div{
+        width:45vw;
+    }
+}
+.album img{
+    display: inline-block;
+    width: 30vw;
+
+}
+.album h2{
+    background:#0021A5;
+    color: #ffffff;
+    padding: 1%;
+    margin-left:7%;
+    margin-right:7%;
+}
+#fb, #mail{
+    width:20px;
+    height:20px;
+    position: relative;
+    top:5px;
+    padding-right:4px;
+}
+.advisor{
+    padding-bottom: 10px;
+}
+.advisor section img{
+    width: 124px;
+}
+.advisor section{
+    display: inline-block;
+    text-align: left;
+}
+.advisor section p h2{
+    display: inline-block;
+    width: 20vw;
+    margin-bottom: 0px;
+}
+#links {
+    margin-top: 15px;
+}
+#links a{
+    margin:10px;
+    border-radius: 5px;
+    background: #FA4616;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+footer{
+    background: #d3d7da;
+    padding: 15px;
+    
+    margin-top: 30px;
+}
+footer p{
+    padding: 15px;
+}
+footer p a{
+    text-decoration: none;
+    color: #000000;
+}
