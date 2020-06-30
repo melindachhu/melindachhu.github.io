@@ -1,0 +1,127 @@
+/*header section h1:first-child{
+    font-size: 500%;
+}*/
+.org{
+    padding-bottom: 15px;
+}
+.org h1{
+    color: #FA4616;
+    font-size: 500%;
+}
+
+nav a{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 100vw;
+
+    /*background: rgba(255, 255, 255, 0.7);*/
+}
+nav a:hover{
+    color: rgba(255, 255, 255, .7);
+
+}
+.active{
+    background-color:#FA4616;
+}
+nav{
+    background: #0021A5;
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+#stadium{
+    width: 100vw;
+    height: 20vw;
+    background: rgb(87, 222, 240);
+    background-image: url(../imgs/stadium.png);
+    background-position: 0% 27%;
+    padding-bottom: 40px;
+    padding-top:50px;
+    background-size: 100%;
+    margin-bottom: 20px;
+}
+#shiftH{
+    margin-top:1vw;
+    font-size: 1000%;
+    margin-bottom:-50px;
+}
+#stadium h1{
+    color: #ffffff;  
+}
+
+h1, h2{
+    text-align:center;
+}
+body{
+    background: #ffffff;/* #3f328b*/;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p{
+   /* font-family: helvetica;*/
+    margin:0% 5%;
+}
+div{
+    display: inline-block;
+    width:20vw;
+    height:20vw;
+    margin:1%;
+    margin-bottom: 5%;
+}
+/*position*/
+div p{
+    color: #0021A5;
+    color: #0072b1;
+    line-height:20px;
+    font-weight: bold;
+    margin: auto;
+    font-family:garamond;
+}
+div img.portfolio{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 20vw;
+}
+section{
+    text-align:center;
+}
+/*name*/
+div a{
+    text-decoration: none;
+    color: #0021A5;
+    color: #0072b1;
+    font-weight:normal;
+    font-size: 25px;
+    font-family: cambria;
+}
+.in{
+    margin-right: 5px;
+    width:25px;
+    height:25px;
+    display:inline-block;
+
+    position: relative;
+    top:5px
+}
+
+iframe{
+    width:70vw;
+    margin-left:12vw;
+    margin-right:12vw;
+}
+#membersTable{
+    font-size:5x;
+    margin:auto;
+
+}
+td{
+    width: 15%;
+    margin: 10%;
+    padding-bottom:2%;
+}
+
+
