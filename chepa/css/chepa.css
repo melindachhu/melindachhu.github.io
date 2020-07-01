@@ -196,8 +196,23 @@ footer p a{
     text-decoration: none;
     color: #000000;
 }
-@media screen and (width-max: 600px){
+@media screen and (max-width: 750px){
     div{
-
+        width:45vw;
+        height:45vw;
     }
+    
+    div img.portfolio{
+        width: 45vw;
+    }
+    .in{
+        margin-right: .5vw;
+        width:1.75vw;
+        height:1.75vw;
+        display:inline-block;
+    
+        position: relative;
+        top:.3vw;
+    }
+    
 }
